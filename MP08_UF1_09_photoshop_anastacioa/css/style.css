@@ -1,0 +1,70 @@
+body:before {
+    content: "Ps";
+    color: lightskyblue;
+    text-align: center;
+    font-size: 110px;
+    font-family: futura;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: midnightblue;
+    border-radius: 30px;
+    line-height: 150px;
+}
+h2 {
+    font-family: futura;
+    font-size: 20PX;
+}
+.imagen {
+    width: 180px;
+    height: 150px;
+    background-color: rosybrown;
+    background-image: url(../img/fruta.png);
+    background-size: cover;
+    background-position: center;
+}
+.efecto {
+    width: 180px;
+    height: 245px;
+    background-color: olivedrab;
+    margin: 18px;
+    text-align: center;
+    display: inline-block;
+}
+.contenedor {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+.desenfoque .imagen {
+    filter: blur(5px);
+}
+.luminosidad .imagen{
+    filter: brightness(2);
+}
+.contraste .imagen {
+    filter: contrast(200);
+}
+.paralela .imagen {
+    filter: drop-shadow(10px 5px 2px lemonchiffon);
+}
+.grises .imagen {
+    filter: grayscale(2);
+}
+.tono .imagen {
+    filter: hue-rotate(50deg);
+}
+.invertir .imagen {
+    filter: invert(10);
+}
+.opacidad .imagen {
+    filter: opacity(50%);
+}
+.saturacion .imagen {
+    filter: saturate(20);
+}
+.sepia .imagen {
+    filter: sepia(10);
+}
+ 

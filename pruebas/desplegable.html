@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplegable</title>
+    <style>
+        *,*:after, *:before {
+            margin: 0;
+            padding: 0;
+        }
+        body div {
+
+        }
+        div > .classe {
+
+        }
+        .navegacion {
+            background-color: lightblue;
+        }
+        .primernivel {
+            background-color: thistle;
+            font-family: futura;
+            color: white;
+            margin: 0.25rem;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+            width: 4.5rem;
+        }
+        .primernivel:hover {
+            background-color: plum;
+        }
+        .primernivel:hover > .secundaria {
+            display: block;
+        }
+        .secundaria {
+            display: none;
+            background-color: lavenderblush;
+            position: absolute;
+            left: 5.5rem;
+            top: 0;
+        }
+        .segundonivel {
+            background: lavender;
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 1.5rem;
+            width: 4.5rem;
+            border-bottom: solid white 1px;
+        }
+        .segundonivel:hover{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navegacion">
+        <li class="primernivel">Opción 1
+            <ul class="secundaria">
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+            </ul>
+        </li>
+        <li class="primernivel">Opción 2
+            <ul class="secundaria">
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+            </ul>
+        </li>
+        <li class="primernivel">Opción 3
+            <ul class="secundaria">
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+            </ul>
+        </li>
+        <li class="primernivel">Opción 4
+            <ul class="secundaria">
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+            </ul>
+        </li>
+        <li class="primernivel">Opción 5
+            <ul class="secundaria">
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+                <li class="segundonivel">Sub-opción</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

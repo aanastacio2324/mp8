@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float 2</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+        div {
+            background-color: beige;
+            margin: 0;
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 0.5%;
+        }
+        .cap {
+            background-color: palevioletred;
+            color: white;
+            padding: 2%;
+        }
+        .menu {
+            float:left;
+            width: 24%;
+            background-color: lightpink;
+        }
+        .contenido {
+            float: left;
+            width: 49%;
+            overflow: scroll;
+            height: 1020px;
+        }
+        .lateral {
+            float: right;
+            width: 24%;
+            background-color: lightpink;
+        }
+        .pie {
+            clear:both;
+            background-color: palevioletred;
+            color: white;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        *,*:after, *:before {
+            margin: 0;
+            padding: 0;
+        }
+        body div {
+
+        }
+        div > .classe {
+
+        }
+        .navegacion {
+            height: 12rem;
+            width: 28rem;
+            margin: 0 auto;
+        }
+        .primernivel {
+            background-color: thistle;
+            font-family: futura;
+            color: white;
+            margin: 0.25rem;
+            display: inline-block;
+            padding: 0.25rem;
+            height: 2rem;
+            position: relative;
+        }
+        .primernivel:hover {
+            background-color: plum;
+        }
+        .primernivel:hover > .secundaria {
+            display: block;
+        }
+        .secundaria {
+            display: none;
+            background-color: lavenderblush;
+            position: absolute;
+            left: 0;
+            top: 2.5rem;
+        }
+        .segundonivel {
+            background: lavender;
+            display: block;
+            top: 2rem;
+            font-size: 0.85rem;
+            height: 2rem;
+            border-bottom: solid white 1px;
+        }
+        .segundonivel:hover{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <div class="cap">
+        <h1>Frankbook</h1>
+        <ul class="navegacion">
+            <li class="primernivel">Opción 1
+                <ul class="secundaria">
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                </ul>
+            </li>
+            <li class="primernivel">Opción 2
+                <ul class="secundaria">
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                </ul>
+            </li>
+            <li class="primernivel">Opción 3
+                <ul class="secundaria">
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                </ul>
+            </li>
+            <li class="primernivel">Opción 4
+                <ul class="secundaria">
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                </ul>
+            </li>
+            <li class="primernivel">Opción 5
+                <ul class="secundaria">
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                    <li class="segundonivel">Sub-opción</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="menu">
+        <h2>Home</h2>
+        <ul>
+            <li><a href="#e1">ejemplo 1</a></li>
+            <li><a href="#e2">ejemplo 2</a></li>
+            <li><a href="#e3">ejemplo 3</a></li>
+            <li><a href="#e4">ejemplo 4</a></li>
+            <li><a href="#e5">ejemplo 5</a></li>
+            <li><a href="#e6">ejemplo 6</a></li>
+            <li><a href="#e7">ejemplo 7</a></li>
+            <li><a href="#e8">ejemplo 8</a></li>
+            <li><a href="#e9">ejemplo 9</a></li>
+            <li><a href="#e10">ejemplo 10</a></li>
+        </ul>
+    </div>
+    <div class="contenido">
+        <h2>Timeline</h2>
+        <h3 id="e1">Post1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e2">Post2</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e3">Post3</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e4">Post4</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e5">Post5</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e6">Post6</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e7">Post7</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e8">Post8</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e9">Post9</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+        <h3 id="e10">Post10</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolores esse molestiae vero veniam magnam repellendus eos, rerum delectus odit aut earum officia, eaque quidem. Explicabo recusandae eligendi earum cum?</p>
+    </div>
+    <div class="lateral">
+        <h2>Contacts</h2>
+        <ul>
+            <li>contacto 1</li>
+            <li>contacto 2</li>
+            <li>contacto 3</li>
+            <li>contacto 4</li>
+            <li>contacto 5</li>
+        </ul>
+    </div>
+    <div class="pie">Copyright Karolina Anastacio</div>
+</body>
+</html>

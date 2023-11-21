@@ -1,0 +1,88 @@
+.petalos {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    border-radius: 0 100%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    transform-origin: right bottom;
+    left: 100px;
+    }
+
+    #primero {
+        /* transform: rotate(360deg); */
+        top: 100px;
+        
+    }
+    
+    #segundo {
+        /* transform: rotate(360deg); */
+        top: 0px;
+        transform: rotate(60deg);
+    }
+    
+    #tercero {
+        /* transform: rotate(360deg); */
+        top:-100px;
+         transform: rotate(120deg);
+    }
+    
+    #cuarto {
+        /* transform: rotate(360deg); */
+        top: -200px;
+        transform: rotate(180deg);
+    }
+    
+    #quinto {
+        /* transform: rotate(360deg); */
+        top: -300px;
+        transform: rotate(240deg);
+    }
+    
+    #sexto {
+        /* transform: rotate(360deg); */
+        top: -400px;
+        transform: rotate(300deg);
+    }
+    
+    .corazon {
+        height: 50px;
+        width: 50px;
+        background-color: bisque;
+        border-radius: 50%;
+        position: relative;
+        top: -425px;
+        left: 175px;
+    }
+
+.flor {
+    float: left;
+    width: 400px;
+    height: 400px;
+    }
+
+    .flor:first-child {
+        animation-name: rotacion;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+    }
+    
+    .flor:hover {
+        animation-name: rotacion;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: reverse;
+    }
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg) ;
+    }
+}

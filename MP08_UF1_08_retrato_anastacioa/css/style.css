@@ -1,0 +1,418 @@
+* {
+    position: relative;
+}
+body {
+    background-color: rgba(202, 134, 134, 1);
+}
+.cuello {
+    width: 220px;
+    height: 100px;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: rgb(176, 139, 102);
+    top: 680px;
+    margin: 0 auto;
+}
+.cabelloext {
+    margin: auto;
+    height: 1px;
+    width: 500px;
+}
+    .curva3 {
+        width: 200px;
+        height: 500px;
+        clip-path: polygon(43% 0, 100% 0, 88% 53%, 59% 80%, 0 100%, 31% 60%);
+        background: linear-gradient(179deg, rgba(0, 0, 0, 1) 36%, rgb(219, 203, 116) 100%);
+        left: -150px;
+        top: -600px;
+    }
+    .capa4 {
+    transform: rotatey(180deg);
+    }
+    .curva4 {
+        width: 200px;
+        height: 500px;
+        clip-path: polygon(43% 0, 100% 0, 88% 53%, 59% 80%, 0 100%, 31% 60%);
+        background: linear-gradient(179deg, rgba(0, 0, 0, 1) 36%, rgba(208, 192, 106, 1) 100%);
+        left: -150px;
+        top: -1100px;
+    }
+    .curva5 {
+        width: 400px;
+        height: 400px;
+        clip-path: polygon(43% 0, 100% 0, 88% 53%, 59% 80%, 0 100%, 31% 60%);
+        background: linear-gradient(179deg, rgba(0, 0, 0, 1) 36%, rgba(208, 192, 106, 1) 100%);
+        top: 450px;
+        left: -230px;
+    }
+    .capa6 {
+    transform: rotatey(180deg);
+    }
+    .curva6 {
+        width: 400px;
+        height: 400px;
+        clip-path: polygon(43% 0, 100% 0, 88% 53%, 59% 80%, 0 100%, 31% 60%);
+        background: linear-gradient(179deg, rgba(0, 0, 0, 1) 36%, rgba(208, 192, 106, 1) 100%);
+        top: 50px;
+        left: -230px;
+    }
+.cabeza {
+    width: 500px;
+    height: 609px;
+    margin: auto;
+    border-radius: 30% 30% 60% 60%;
+    background-color: rgb(192, 152, 112);
+}
+.lunar1 {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    top: 370px;
+    left: -400px;
+}
+.lunar2 {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: black;
+    float: right;
+    top: 540px;
+    left: -320px;
+}
+    .cabello {
+        width: 500px;
+        height: 140px;
+        border-radius: 50%;
+        background: linear-gradient(179deg, rgba(0, 0, 0, 1) 0%, rgba(192, 152, 112) 100%);
+    }
+        .redondo1 {
+            width: 200px;
+            height: 130px;
+            border-radius: 30%;
+            background-color: black;
+            left: 60px;
+        }
+        .curva1 {
+            width: 400px;
+            height: 600px;
+            clip-path: polygon(59% 20%, 40% 34%, 49% 73%, 30% 100%, 34% 79%, 18% 53%, 12% 32%, 27% 8%, 57% 0);
+            background: linear-gradient(179deg, rgba(0, 0, 0, 1) 36%, rgba(208, 192, 106, 1) 100%);
+            left: -140px;
+            top: -125px;
+        }
+        .capa2 {
+            transform: rotatey(180deg);
+            z-index: 0;
+        }
+            .redondo2 {
+                width: 200px;
+                height: 130px;
+                border-radius: 30%;
+                background-color: black;
+                left: 60px;
+                top: -730px;
+            }
+            .curva2 {
+                width: 400px;
+                height: 600px;
+                clip-path: polygon(59% 20%, 40% 34%, 49% 73%, 30% 100%, 34% 79%, 18% 53%, 12% 32%, 27% 8%, 57% 0);
+                background: linear-gradient(179deg, rgba(0, 0, 0, 1) 36%, rgba(208, 192, 106, 1) 100%);
+                left: -140px;
+                top: -855px;
+            }
+    .cejas {
+        width: 500px;
+        height: 85px;
+        margin-bottom: 10px;
+    }
+        .cejader {
+            width: 165px;
+            height: 200px;
+            margin-right: 50px;
+            background-color: black;
+            clip-path: polygon(0 34%, 76% 25%, 100% 41%, 75% 35%, 0 43%);
+            background: linear-gradient(90deg, rgba(47, 32, 11, 0.818) 0%, rgba(0, 0, 0, 1) 100%);
+            float: right;
+        }
+        .cejaizq {
+            width: 165px;
+            height: 200px;
+            margin-left: 50px;
+            background-color: black;
+            clip-path: polygon(0 34%, 76% 25%, 100% 41%, 75% 35%, 0 43%);
+            background: linear-gradient(90deg, rgba(47, 32, 11, 0.818) 0%, rgba(0, 0, 0, 1) 100%);
+            transform: rotatey(180deg);
+        }
+    .ojos {
+        width: 500px;
+        height: 70px;
+    }
+        .delineadoder {
+            width: 180px;
+            height: 200px;
+            clip-path: polygon(77.71% 26.98%, 100% 17.75%, 78.08% 17.75%, 52.02% 8.58%, 30.68% 8.58%, 0% 27.29%, 30.68% 36.22%, 55.43% 36.22%);
+            right: -180px;
+            background-color: black;
+            float: right;
+        }
+        .ojoder {
+            width: 180px;
+            height: 200px;
+            clip-path: polygon(77.41% 24.87%, 52.02% 11.58%, 30.68% 11.58%, 7.42% 27.78%, 30.68% 36.22%, 55.43% 36.22%);
+            background-color: white;
+            right: 35px;
+            top: -200px;
+            float: right;
+        }
+        .delineadoizq {
+            width: 180px;
+            height: 200px;
+            clip-path: polygon(77.71% 26.98%, 100% 17.75%, 78.08% 17.75%, 52.02% 8.58%, 30.68% 8.58%, 0% 27.29%, 30.68% 36.22%, 55.43% 36.22%);
+            left: 35px;
+            background-color: black;
+            transform: rotatey(180deg);
+        }
+        .ojoizq {
+            width: 180px;
+            height: 200px;
+            clip-path: polygon(77.41% 24.87%, 52.02% 11.58%, 30.68% 11.58%, 7.42% 27.78%, 30.68% 36.22%, 55.43% 36.22%);
+            background-color: white;
+            left: 35px;
+            top: -200px;
+            transform: rotatey(180deg);
+        }
+        .pupila1 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: black;
+            left: 50px;
+            top: 22px;
+        }
+        .pupila2 {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: black;
+            left: 50px;
+            top: 22px;
+        }
+        .reflejo1 {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: white;
+            left: 30px;
+            top: 5px;
+        }
+        .reflejo2 {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background-color: white;
+            left: 5px;
+            top: 5px;
+        }
+    .orejas {
+            width: 500px;
+            height: 1px;
+            z-index: 0;
+    }
+        .orejader {
+            width: 100px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: rgb(192, 152, 112);
+            left: -50px;
+            top: -50px;
+        }
+            .arete1 {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: dashed 2px gold;
+                background-color: darkred;
+                top: 100px; 
+                left: 25px;
+            }
+        .orejaizq {
+            width: 100px;
+            height: 140px;
+            border-radius: 50%;
+            background-color: rgb(192, 152, 112);
+            left: 445px;
+            top: -190px;
+        }
+            .arete2 {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                border: dashed 2px gold;
+                background-color: darkred;
+                top: 100px; 
+                left: 48px;
+            }
+    .nariz {
+        width: 160px;
+        height: 140px;
+        clip-path: polygon(50% 0, 80% 100%, 20% 100%);
+        left: 170px;
+        top: -15px;
+    }
+        .inf {
+            width: 65px;
+            height: 65px;
+            border: solid 3px rgb(128, 102, 75);
+            border-radius: 60% 0;
+            transform: rotate(45deg);
+            background: linear-gradient(-45deg, rgba(202, 134, 134, 1) 0%, rgba(192, 152, 112) 64%);
+            top: 90px;
+            right: -45px;
+        }
+    .labios {
+        width: 200px;
+        height: 100px;
+        left: 150px;
+        top: -18px;
+    }
+        .supder {
+            width: 60px;
+            height: 60px;
+            margin-top: 30px;
+            background-color: darkred;
+            border-radius: 100% 0;
+            transform: rotate(30deg);
+            left: 35px;
+            top: 5px;
+        }
+        .supizq {
+            width: 60px;
+            height: 60px;
+            background-color: darkred;
+            border-radius: 100% 0;
+            transform: rotate(60deg);
+            left: -35px;
+            top: -55px;
+            float: right;
+        }
+        .labiosinf {
+            width: 112px;
+            height: 112px;
+            border-radius: 100% 0;
+            transform: rotate(45deg);
+            background-color: darkred;
+            left: 45px;
+            top: -55px;
+        }
+            .reflejo3 {
+                width: 10px;
+                height: 50px;
+                border-radius: 50%;
+                background-color: white;
+                transform: rotate(45deg);
+                top: 25px;
+                left: 45px;
+            }
+        .labder {
+            width: 45px;
+            height: 28px;
+            clip-path: polygon(0 0, 100% 0, 100% 100%);
+            background-color: darkred;
+            top: -126px;
+            transform: rotate(8deg);
+        }
+        .labizq {
+            width: 45px;
+            height: 28px;
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+            background-color: darkred;
+            top: -155px;
+            transform: rotate(-9deg);
+            left: 158px;
+        }
+
+.cuerpo {
+    width: 450px;
+    height: 500px;
+}
+.cubrir {
+    width: 240px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(176, 139, 102);
+    float: right;
+    left: 48px;
+    top: 15px;
+    z-index: 10;
+}
+.collareta {
+    width: 250px;
+    height: 250px;
+    border-radius: 100% 0;
+    transform: rotate(45deg);
+    background-color: black;
+    top: -7px;
+    left: 125px;
+}
+.pecho {
+    width: 350px;
+    height: 320px;
+    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    background-color: black;
+    top: -130px;
+    left: -25px;
+    float: right;
+    z-index: 9;
+}
+.torso {
+    width: 700px;
+    height: 410px;
+    border-radius: 50% 50% 20% 20%;
+    background-color: thistle;
+    top: -220px;
+    left: -90px;
+    z-index: -2;
+}
+.pupila1 {
+    animation: trans1 1s ease-in-out 1s infinite alternate;
+}
+@keyframes trans1{
+    from {
+       left: 50px;
+       }
+    to {
+       left: 65px;
+     }
+   }
+@keyframes trans1{
+    0% {
+        left: 50px;
+    }
+    100% {
+        left: 65px;
+    }
+}
+.pupila2 {
+    animation: trans2 1s ease-in-out 1s infinite alternate;
+}
+@keyframes trans2{
+    from {
+       right: 50px;
+       }
+    to {
+       left: 35px;
+     }
+   }
+@keyframes trans2{
+    0% {
+        right: 50px;
+    }
+    100% {
+        left: 35px;
+    }
+}
+.orejas:hover {
+    z-index: -2;
+    transition: 1s;
+}
