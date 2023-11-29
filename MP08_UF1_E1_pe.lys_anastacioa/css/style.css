@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color: white;
+    margin: 0;
+}
+    .logotipo {
+        height: 50px;
+        position: fixed;
+        display: inline-block;
+    }
+    a {
+        color: #ccc;
+    }
+    a:hover {
+        color: #fff;
+    }
+        .logotipo ul {
+            display: inline-block;
+        }    
+        .logotipo ul li {
+            display: inline-block;
+        }
+            .logo {
+                float: left;
+            }
+            .logo img {
+                margin: 5px 20px;
+            }
+            .tipo {
+                float: left;
+            }
+            .redes {
+                float: right;
+            }
+
+        h2 {
+            margin-left: 15px;
+        }
+
+.dinteresantes  {
+    display: inline-block;
+    margin-top: 2rem;
+    z-index: 1;
+}
+        .dinteresantes img{
+            width: 175px;
+            border-radius: 5px;
+            margin: 10px;
+            float: left;
+        }
+            #di01, #di02, #di03, #di04, #di05, #di06, #di07, #di08, #di09, #di10, #di11{
+                height: 325px;
+                width: 200px;
+                float: left;
+            }
+            .detalles {
+                margin: 8px;
+                clear: left;
+            }
+                h6{
+                    width: 50%;
+                    float: left;
+                    margin-top: -15px;
+                }
+
+
+.dvistos  {
+    display: inline-block;
+                }
+    .dvistos img{
+        width: 175px;
+        border-radius: 5px;
+        margin: 10px;
+        float: left;
+        filter: grayscale(100%);
+    }
+        #dv01, #dv02, #dv03, #dv04 {
+            height: 325px;
+            width: 200px;
+            float: left;
+        }
+            .detalles {
+                margin: 8px;
+                clear: left;
+            }
+                h6{
+                    width: 50%;
+                    float: left;
+                    margin-top: -15px;
+                }
+
+.ppendientes  {
+    display: inline-block;
+    width: 100%;
+    }
+    .ppendientes img{
+        width: 175px;
+        border-radius: 5px;
+        margin: 10px;
+        float: left;
+    }
+        #pp01, #pp02 {
+            height: 325px;
+            width: 200px;
+            float: left;
+        }
+            .detalles {
+                margin: 8px;
+                clear: left;
+            }
+            h6{
+                width: 50%;
+                float: left;
+                margin-top: -15px;
+            }
+
+.pvistas  {
+    display: inline-block;
+    width: 100%;
+    }
+    .pvistas img{
+        width: 175px;
+        border-radius: 5px;
+        margin: 10px;
+        float: left;
+    }
+        #pv01, #pv02 {
+            height: 325px;
+            width: 200px;
+            float: left;
+        }
+            .detalles {
+                margin: 8px;
+                clear: left;
+            }
+            h6{
+                width: 50%;
+                float: left;
+                margin-top: -15px;
+            }
+
+.sseguidos  {
+    display: inline-block;
+    width: 100%;
+    }
+    .sseguidos img{
+        width: 175px;
+        border-radius: 5px;
+        margin: 10px;
+        float: left;
+    }
+        #ss01, #ss02 {
+            height: 325px;
+            width: 200px;
+            float: left;
+        }
+            .detalles {
+                margin: 8px;
+                clear: left;
+            }
+            h6{
+                width: 50%;
+                float: left;
+                margin-top: -15px;
+            }
+            
+.svistas  {
+    display: inline-block;
+    width: 100%;
+    }
+    .svistas img{
+        width: 175px;
+        border-radius: 5px;
+        margin: 10px;
+        float: left;
+    }
+        #sv01, #sv02 {
+            height: 325px;
+            width: 200px;
+            float: left;
+        }
+            .detalles {
+                margin: 8px;
+                clear: left;
+            }
+            h6{
+                width: 50%;
+                float: left;
+                margin-top: -15px;
+            }
