@@ -1,0 +1,74 @@
+*, *:before{ 
+    margin: 0;
+    margin: 0;
+    position: relative;
+}
+
+input {
+    appearance: none;
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+
+input::before {
+    content: "---";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    font-size: 8rem;
+    line-height: 0.8rem;
+    text-align: center;
+}
+
+input:checked:before {
+    content: "---";
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    font-size: 8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+background-image:
+ radial-gradient(at 88% 81%, hsla(54,37%,83%,0.79) 0px, transparent 50%),
+ radial-gradient(at 80% 0%, hsla(211,82%,71%,1) 0px, transparent 50%),
+ radial-gradient(at 0% 45%, hsla(23,100%,93%,0.84) 0px, transparent 50%),
+ radial-gradient(at 56% 35%, hsla(325,86%,72%,0.62) 0px, transparent 50%),
+ radial-gradient(at 24% 85%, hsla(280,52%,72%,1) 0px, transparent 50%),
+ radial-gradient(at 0% 0%, hsla(322,89%,75%,1) 0px, transparent 50%);;
+}
+
+label {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    right: 0;
+
+    z-index: -10;
+    box-shadow: 0.2rem 0 0.3rem gainsboro;
+    transition: 1s;
+}
+
+input:checked ~ label {
+    left: -70%;
+    background-color: lightgrey;
+}
+
+.contenedor {
+    font-family: futura;
+    width: 80%;
+    color: white;
+    margin: 0.5rem auto;
+}
