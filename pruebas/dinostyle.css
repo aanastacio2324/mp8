@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#juego {
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid rosybrown;
+    overflow: hidden;
+}
+
+#dino {
+    height: 50px;
+    width: 20px;
+    position: relative;
+    top: 150px; 
+}
+img {
+    height: 60px;
+    width: 25px;
+}
+
+.saltando{
+    animation: saltar 500ms infinite;
+}
+
+@keyframes saltar{
+    0%{top:150px}
+    33%{top:100px}
+    66%{top:100px}
+    100%{top:150px}
+}
+
+#obstaculo {
+    height: 20px;
+    width: 20px;
+    background-color: rosybrown;
+    border-radius: 50%;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: obstaculo 1s infinite linear;
+}
+
+@keyframes obstaculo {
+    0%{left: 480px}
+    100%{left:-40px}
+}
+
+#contador {
+    background-color: indianred;
+    margin: 40px;
+    padding: 20px 20px 40px 20px;
+    height: 40px;
+    width: 80px;
+    color: white;
+    font-family: futura;
+    text-align: center;
+}
