@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    background: url(../img/fons.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.contenedorgeneral {
+    height: 1469px;
+    width: 960px;
+    position: relative;
+    left: 15vw;
+}
+
+.cap {
+    width: 960px;
+    height: 600px;
+    position: relative;
+}
+    .titulo {
+        top: 30px;
+        height:4rem ;
+        width:25rem ;
+        position: relative;
+        left: 300px;
+    }
+    h1{
+        font-size: 4rem;
+        float: right;
+        text-align: center;
+
+    }
+    #color {
+        color: gray;
+    }
+    .imagen {
+        width:900px ;
+        height: 600px ;
+        position: relative;
+        bottom: 4rem;
+        background: url(../img/ani/back.png);
+        animation: pass 3s;
+    }
+    
+    @keyframes pass {
+        0% {opacity: 1;}
+        100% { opacity: 0;}
+    }
+
+
+
+
+
+.contenedor {
+    width: 960px;
+    height: 660px;
+}
+    .puntacar {
+        margin: 10px 30px;
+        height: 200px ;
+        display: inline-block;
+        opacity: 50%;
+        }
+            .img{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_pulp.jpg) no-repeat;
+            }
+            .img1{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_taxi.jpg) no-repeat;
+            }
+            .img2{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_bond.jpg) no-repeat;
+            }
+            .img3{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_ghost.jpg) no-repeat;
+            }
+            .img4{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_bean.jpg) no-repeat;
+            }
+            .img5{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_back.jpg) no-repeat;
+            }
+            .img6{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_rider.jpg) no-repeat;
+            }
+            .img7{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_team.jpg) no-repeat;
+            }
+            .img8{
+                width: 250px;
+                height: 172px;
+                background: url(../img/small/small_break.jpg) no-repeat;
+            }
+            h3 {
+                font-family: Arial, Helvetica, sans-serif;
+                color: gray;
+                size: 1rem;
+            }
+
+            .puntacar:hover {
+                opacity: 100%;
+                animation: spin 1s;
+            }
+
+            @keyframes spin { 
+                from { 
+                    transform: rotate(0deg); 
+                } to { 
+                    transform: rotate(360deg); 
+                }
+            }
+            
+
+.pies {
+    width: 960px;
+    height: 220px;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+    background: url(../img/logo_carsandfilms.png);
+    margin-left: 350px
+}
